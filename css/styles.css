@@ -64,8 +64,28 @@ p {
   color: grey;
 }
 
-.pancita img {
+/* probando con el agregado normal y css */
+/* .pancita img {
   width: 100%;
   height: 40px;
   object-fit: fill;
+} */
+
+.pancita {
+  position: relative;
+  height: 40px;
+  background-image: url("../img/curveGray.svg");
+}
+
+.pancita2::before {
+  content: "";
+  position: absolute;
+  background-image: url("../img/curveGray.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 40px;
+  top: 0;
+  left: 0;
+  background-size: cover;
 }

@@ -17,11 +17,15 @@
       href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sevillana&family=Young+Serif&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
   </head>
   <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container">
-        <a class="navbar-brand" href="#">Hack Analytics</a>
+        <a class="navbar-brand grandTitle" href="#">Hack Analytics</a>
         <button
           class="navbar-toggler"
           type="button"
@@ -36,14 +40,14 @@
 
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
           <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item mx-2">
               <a class="nav-link" href="#">About Us</a>
             </li>
 
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown mx-2">
               <a
                 class="nav-link dropdown-toggle"
                 href="#"
@@ -61,8 +65,12 @@
                 </li>
               </ul>
             </li>
-            <button type="button" class="btn rounded-pill" id="navbarButton">
-              Success
+            <button
+              type="button"
+              class="btn rounded-pill ms-2"
+              id="navbarButton"
+            >
+              Buy now
             </button>
           </ul>
         </div>
@@ -71,7 +79,7 @@
 
     <div class="container">
       <div class="row header mt-5">
-        <div class="col-6 text-col mb-5">
+        <div class="col-sm-12 col-md-12 col-lg-6 text-col mb-5">
           <h1>Get insights that help your business grow.</h1>
           <p class="my-5" id="first-paragraph">
             Discover the benefits of data analytics and make better decisions
@@ -82,17 +90,20 @@
             class="btn btn-primary px-4 py-3"
             id="buttonFirst"
           >
-            Explore Products
+            Explore Products <i class="bi bi-arrow-right"></i>
           </button>
           <button
             type="button"
             class="btn btn-primary px-4 py-3"
             id="buttonSecond"
           >
-            Documentation
+            Documentation <i class="bi bi-arrow-right"></i>
           </button>
         </div>
-        <div class="col-6 image-col align-items-start mb-5">
+        <hr class="d-none d-sm-block d-sm-block d-md-block d-lg-none" />
+        <div
+          class="col-sm-12 col-md-12 col-lg-6 image-col align-items-start mb-5"
+        >
           <img
             class="img-fluid h-100"
             src="img/undraw_data_reports_706v.svg"
@@ -101,12 +112,14 @@
         </div>
       </div>
     </div>
-
+    <div class="pancita">
+      <img src="img/curveGray.svg" alt="" />
+    </div>
     <div class="container-fluid" id="secondContainer">
       <div class="container">
-        <div class="row mt-5">
+        <div class="row">
           <div class="col-12 d-flex justify-content-center">
-            <span class="badge rounded-pill p-2 m-4">New</span>
+            <span class="badge rounded-pill p-2 m-4 px-3">New</span>
           </div>
           <div class="col-12">
             <h3 class="title-features text-center mb-3">Features</h3>
@@ -124,74 +137,74 @@
         </div>
 
         <div class="listed d-flex justify-content-center text-center flex-wrap">
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-            <h6>Invite team members</h6>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <h6 class="fw-bold">Invite team members</h6>
             <img
-              class="img-fluid w-50 d-block mx-auto mt-2"
+              class="img-fluid mt-2 miniatures"
               src="img\undraw_dashboard_re_3b76.svg"
               alt="pc presentatation"
             />
-            <p class="mt-4">
+            <p class="mt-4 mx-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
               facilis quaerat odit
             </p>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-            <h6>Reporting</h6>
+            <h6 class="fw-bold">Reporting</h6>
             <img
-              class="img-fluid d-block w-50 mx-auto mt-2"
+              class="img-fluid mt-2 miniatures"
               src="img\undraw_segmentation_re_gduq.svg"
               alt="person presenting graphics"
             />
-            <p class="mt-4">
+            <p class="mt-4 mx-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
               facilis quaerat odit
             </p>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-            <h6>Dashboards</h6>
+            <h6 class="fw-bold">Dashboards</h6>
             <img
-              class="img-fluid d-block w-50 mx-auto mt-2"
+              class="img-fluid mt-2 miniatures"
               src="img\undraw_data_re_80ws.svg"
               alt="people working with graphics"
             />
-            <p class="mt-4">
+            <p class="mt-4 mx-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
               facilis quaerat odit
             </p>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-            <h6>Invite team members</h6>
+            <h6 class="fw-bold">Invite team members</h6>
             <img
-              class="img-fluid d-block w-50 mx-auto mt-2"
+              class="img-fluid mt-2 miniatures"
               src="img\undraw_team_collaboration_re_ow29.svg"
               alt="person presenting graphics"
             />
-            <p class="mt-4">
+            <p class="mt-4 mx-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
               facilis quaerat odit
             </p>
           </div>
           <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-            <h6>Reporting</h6>
+            <h6 class="fw-bold">Statitstics</h6>
             <img
-              class="img-fluid d-block w-50 mx-auto mt-2"
-              src="img\undraw_segmentation_re_gduq.svg"
-              alt="person presenting graphics"
+              class="img-fluid mt-2 miniatures"
+              src="img\undraw_statistics_re_kox4.svg"
+              alt="people charging a tv with graphics on it"
             />
-            <p class="mt-4">
+            <p class="mt-4 mx-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
               facilis quaerat odit
             </p>
           </div>
-          <div class="col-sm-12 col-md-6 col-lg-4 mb-5">
-            <h6>Reporting</h6>
+          <div class="col-sm-12 col-md-6 col-lg-4">
+            <h6 class="fw-bold">Reporting</h6>
             <img
-              class="img-fluid d-block w-50 mx-auto mt-2"
-              src="img\undraw_segmentation_re_gduq.svg"
-              alt="person presenting graphics"
+              class="img-fluid mt-2 miniatures"
+              src="img\undraw_project_complete_lwss.svg"
+              alt="woman working with charts"
             />
-            <p class="mt-4">
+            <p class="mt-4 mx-4">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
               facilis quaerat odit
             </p>

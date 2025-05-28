@@ -103,3 +103,109 @@ p {
   /* se usa doble en firefox */
   height: 40px;
 }
+
+.conainerRedes {
+  margin-bottom: 16px;
+}
+
+.redes {
+  margin-top: 70px;
+}
+
+svg {
+  color: white;
+}
+.gray {
+  color: gray;
+}
+.iconos {
+  margin-right: 3px;
+}
+
+footer .titulosFooter {
+  color: white;
+  margin-bottom: 20px;
+  padding-top: 30px;
+}
+footer .contenidoFooter {
+  margin-bottom: 3px;
+}
+
+#fromtheblog {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.blog {
+  max-width: 500px;
+  text-align: center;
+}
+
+.sectionCards .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.sectionCards .col-lg-4,
+.sectionCards .col-md-12,
+.sectionCards .col-sm-12 {
+  display: flex;
+}
+
+.card-text {
+  font-size: 14px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+}
+
+.avatarName {
+  font-size: 14px;
+}
+
+.avatarText {
+  font-size: 12px;
+}
+
+#btn-mail {
+  background-color: #ff3e1e;
+  color: #f5f5f5;
+  border-radius: 0.5rem;
+  border-color: #ff3e1e;
+  padding: 0.5rem 1rem;
+}
+
+.sectionCards .card {
+  width: 100%;
+}
+
+.card-img-top {
+  aspect-ratio: 354 / 236;
+  object-fit: cover;
+  width: 100%;
+}
+
+#containerFTB {
+  top: 80px;
+  position: relative;
+  z-index: 10;
+}
+
+#padreFTB {
+  margin-top: -40px;
+}
+
+footer {
+  background: black;
+  position: relative;
+  z-index: 1;
+}
+
+.footerContain {
+  padding-top: 70px;
+}

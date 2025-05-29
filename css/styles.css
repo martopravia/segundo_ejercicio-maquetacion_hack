@@ -91,7 +91,7 @@ p {
   background-image: url("../img/curveGray.svg");
 }
 
-.pancita2::before {
+.pancita::before {
   content: "";
   position: absolute;
   top: 0;
